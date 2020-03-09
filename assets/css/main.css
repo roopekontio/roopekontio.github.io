@@ -3225,13 +3225,12 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			left: 0;
-			width: 100%;
+			width: auto;
 			height: 100%;
-			background-color: #212931;
 			background-image: url("/images/Pariisi.jpg");
 			background-size: contain,								auto,														100% auto;
 			background-position: center,								center,														top center;
-			background-repeat: repeat,								no-repeat,													no-repeat;
+			background-repeat: no-repeat,								no-repeat,													no-repeat;
 			background-attachment: scroll,								scroll,														scroll;
 			z-index: -1;
 		}
