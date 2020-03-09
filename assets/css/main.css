@@ -2034,8 +2034,7 @@ input, select, textarea {
 
 	.box {
 		border: solid 2px;
-		margin-bottom: 2rem;
-		padding: 1.5rem;
+		margin-bottom: 1rem;
 	}
 
 		.box > :last-child,
@@ -2598,7 +2597,7 @@ input, select, textarea {
 		}
 
 			.image.left img, .image.right img {
-				width: 100%;
+				width: 70%;
 			}
 
 		.image.left {
@@ -2615,8 +2614,8 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			margin: 2.5rem 0;
-			width: 100%;
+			margin: 2rem 0;
+			width: 99%;
 		}
 
 			.image.fit:first-child {
@@ -3227,7 +3226,7 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			background-image: url("/images/Pariisi.jpg");
-			background-size: contain;
+			background-size: cover;
 			background-position: center;
 			background-repeat: no-repeat;
 			background-attachment: scroll;
@@ -3251,7 +3250,6 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background: #1e252d;
-			content: '';
 			display: block;
 			height: 100%;
 			left: 0;
@@ -4679,3 +4677,14 @@ input, select, textarea {
 		}
 
 	}
+
+	#neliö {
+  width: 700px;
+  height: 800px;
+  margin: 0 auto;
+}
+
+#neliö > img {
+  float: left;
+  width: 45%;
+}
