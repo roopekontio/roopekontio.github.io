@@ -4684,13 +4684,4 @@ input, select, textarea {
 		overflow:hidden;
 		padding-bottom:56.25%;
 		position:relative;
-		height:0;
-	}	
-
-	.YTvideo iframe {
-		left:0;
-		top:0;
-		height:100%;
-		width:100%;
-		position:absolute;
 	}
