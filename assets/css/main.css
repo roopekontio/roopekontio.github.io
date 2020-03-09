@@ -3228,10 +3228,10 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background-image: url("/images/Pariisi.jpg");
-			background-size: cover;
+			background-size: auto;
 			background-position: center;
-			background-repeat: no-repeat;
-			background-attachment: fixed;
+			background-repeat: repeat;
+			background-attachment: scroll;
 			z-index: -1;
 		}
 
