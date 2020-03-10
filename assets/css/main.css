@@ -31,6 +31,9 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	background-image: url("/images/Pariisi.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 ol, ul {
@@ -3222,9 +3225,6 @@ input, select, textarea {
 	}
 
 		#wrapper > .bg {
-			position: absolute;
-			top: 0;
-			left: 0;
 			background-image: url("/images/Pariisi.jpg");
 			background-size: cover;
 			background-position: center;
@@ -3233,11 +3233,6 @@ input, select, textarea {
 			z-index: -1;
 		}
 
-			#wrapper > .bg.fixed {
-				position: fixed;
-				width: 100vw;
-				height: 100vh;
-			}
 
 		#wrapper.fade-in:before {
 			pointer-events: none;
@@ -3249,7 +3244,6 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background: #1e252d;
 			display: block;
 			height: 100%;
 			left: 0;
@@ -3263,13 +3257,7 @@ input, select, textarea {
 			opacity: 1;
 		}
 
-		@media screen and (orientation: portrait) {
 
-			#wrapper > .bg {
-				background-size: auto,								auto,														auto 175%;
-			}
-
-		}
 
 /* Intro */
 
