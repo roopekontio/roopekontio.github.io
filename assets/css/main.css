@@ -34,6 +34,7 @@ body {
 	background-image: url("/images/Pariisi.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 ol, ul {
@@ -3224,14 +3225,6 @@ input, select, textarea {
 		overflow: hidden;
 	}
 
-		#wrapper > .bg {
-			background-image: url("/images/Pariisi.jpg");
-			background-size: cover;
-			background-position: center;
-			background-repeat: no-repeat;
-			background-attachment: scroll;
-			z-index: -1;
-		}
 
 
 		#wrapper.fade-in:before {
