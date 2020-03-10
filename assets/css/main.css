@@ -2596,6 +2596,16 @@ input, select, textarea {
 			display: block;
 		}
 
+		.image.esittely {
+			max-width: 40%;
+			float: left;
+			margin: 0 2rem 2rem 0;
+			top: 0.75rem;
+			border: solid;
+			border-width: 2px;
+			border-color: rgba(1, 1, 1, 0.25);
+		}
+
 		.image.left, .image.right {
 			max-width: 40%;
 		}
@@ -3750,7 +3760,7 @@ input, select, textarea {
 		}
 
 		#main > .post {
-			padding: 8rem 8rem 6rem 8rem ;
+			padding: 4rem 8rem 2rem 8rem ;
 		}
 
 			#main > .post header.major > .date {
