@@ -2606,6 +2606,18 @@ input, select, textarea {
 			border-color: rgba(1, 1, 1, 0.25);
 		}
 
+
+		/* Työkokemus kuvat */
+		.image.tk {
+			max-width: 40%;
+			float: left;
+			margin: 0 2rem 2rem 0;
+			top: 0.75rem;
+		}
+		.image.tk img {
+			width: 70%;
+		}
+
 		.image.left, .image.right {
 			max-width: 40%;
 		}
@@ -2622,7 +2634,7 @@ input, select, textarea {
 
 		.image.right {
 			float: right;
-			margin: 0 0 2rem 2rem;
+			margin: 0 0 2rem 3rem;
 			top: 0.75rem;
 		}
 
