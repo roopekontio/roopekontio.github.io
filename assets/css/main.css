@@ -2609,13 +2609,13 @@ input, select, textarea {
 
 		/* Työkokemus kuvat */
 		.image.tk {
-			max-width: 40%;
+			max-width: 50%;
 			float: left;
-			margin: 0 2rem 2rem 0;
+			margin: 0 1rem 1rem 0;
 			top: 0.75rem;
 		}
 		.image.tk img {
-			width: 70%;
+			width: 90%;
 		}
 
 		.image.left, .image.right {
@@ -3691,6 +3691,10 @@ input, select, textarea {
 
 			#main > .post.featured {
 				text-align: center;
+			}
+
+			#main > .post.featured > iframe {
+				width: 100%;
 			}
 
 			@media screen and (max-width: 1280px) {
