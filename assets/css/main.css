@@ -2593,9 +2593,10 @@ input, select, textarea {
 
 		/* Esittely kuva */
 		.image.esittely {
+			display: flex;
 			max-width: 40%;
 			float: left;
-			margin: 0 1rem 2rem 0;
+			margin: 0 1rem 0 0;
 			border: hidden;
 			border-width: 2px;
 			border-color: rgba(1, 1, 1, 0.25);
@@ -3648,6 +3649,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
+		display: flow-root;
 		background-color: #ffffff;
 		position: relative;
 		margin: 0 auto;
