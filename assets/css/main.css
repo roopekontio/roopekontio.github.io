@@ -2614,6 +2614,19 @@ input, select, textarea {
 			width: 90%;
 		}
 
+/* Portfolion kuvakkeet */
+		.image.portfolio {
+			position: relative;
+			display: block;
+			margin: 2rem auto;
+			width: 99%;
+		}
+
+		.image.portfolio img {
+			height: 400px;
+		}
+
+
 		.image.left, .image.right {
 			max-width: 40%;
 		}
@@ -2638,6 +2651,7 @@ input, select, textarea {
 			display: block;
 			margin: 2rem 0;
 			width: 99%;
+			text-align: -webkit-center;
 		}
 
 			.image.fit:first-child {
@@ -2645,7 +2659,7 @@ input, select, textarea {
 			}
 
 			.image.fit img {
-				width: 100%;
+				height: 400px;
 			}
 
 		.image.main {
@@ -2685,6 +2699,11 @@ input, select, textarea {
 
 			.image.fit {
 				margin: 2rem 0;
+			}
+
+			.image.fit img {
+				width: -webkit-fill-available;
+				height: auto;
 			}
 
 			.image.main {
@@ -4562,9 +4581,4 @@ input, select, textarea {
   width: 700px;
   height: 800px;
   margin: 0 auto;
-}
-
-#neliö > img {
-  float: left;
-  width: 45%;
 }
