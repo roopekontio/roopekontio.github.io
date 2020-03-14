@@ -227,7 +227,7 @@ input, select, textarea {
 		font-size: 0.9rem;
 		position: relative;
 		top: -0.5rem;
-	}
+		display: flow-root;	}
 
 	blockquote {
 		border-left: solid 4px;
@@ -2607,11 +2607,12 @@ input, select, textarea {
 		.image.tk {
 			max-width: 50%;
 			float: left;
-			margin: 0 1rem 1rem 0;
+			margin: 0rem 1rem 1rem 1rem;
 			top: 0.75rem;
 		}
 		.image.tk img {
 			width: 90%;
+			padding-bottom: 0rem;
 		}
 
 /* Portfolion kuvakkeet */
@@ -3707,6 +3708,7 @@ input, select, textarea {
 
 			#main > .post.featured {
 				text-align: center;
+				display: flow-root;
 			}
 
 			#main > .post.featured > iframe {
