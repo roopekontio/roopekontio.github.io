@@ -226,7 +226,7 @@ input, select, textarea {
 		font-size: 0.9rem;
 		position: relative;
 		top: -0.5rem;
-		display: flow-root;	}
+		display: inline-block;	}
 
 	blockquote {
 		border-left: solid 4px;
@@ -3680,7 +3680,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		display: flow-root;
+		display: table;
 		background-color: #ffffff;
 		position: relative;
 		margin: 0 auto;
@@ -3719,7 +3719,7 @@ input, select, textarea {
 
 			#main > .post.featured {
 				text-align: center;
-				display: flow-root;
+				display: table;
 			}
 
 			#main > .post.featured > iframe {
