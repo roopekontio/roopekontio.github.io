@@ -2683,26 +2683,17 @@ input, select, textarea {
 				width: 99%;
 			}
 
-			.image.juliste:hover {
-				position:relative;
-				transition-delay: 0.1s;
-				width:500px;
-				height:auto;
-				display:block;
-				z-index:999;
-			}
-
 			.image.juliste img {
 				width: 100%
 			}
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 980px) {
 
 			.image.fit {
 				margin: 2rem 0;
 			}
 
 			.image.fit img {
-				width: -webkit-fill-available;
+				max-width: 100%;
 				height: auto;
 			}
 
@@ -3715,6 +3706,7 @@ input, select, textarea {
 				font-size: 4rem;
 				line-height: 1.1;
 				margin: 0 0 2rem 0;
+				text-align: justify;
 			}
 
 			#main > .post.featured {
@@ -3723,7 +3715,14 @@ input, select, textarea {
 			}
 
 			#main > .post.featured > iframe {
-				width: 100%;
+				max-width: 100%;
+				height: auto;
+			}
+
+			@media screen and (max-width: 736px) {
+				#main > .post.featured > iframe {
+					max-width: fit-content;
+				}
 			}
 
 			@media screen and (max-width: 1280px) {
@@ -3746,7 +3745,7 @@ input, select, textarea {
 					}
 
 					#main > .post header.major > h1, #main > .post header.major h2 {
-						font-size: 2.5rem;
+						font-size: 1.5rem;
 						line-height: 1.2;
 						margin: 0 0 1.5rem 0;
 					}
