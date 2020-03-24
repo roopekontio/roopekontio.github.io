@@ -26,11 +26,24 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+}
+
+	/* Detektaa jos selain tukee webP-kuvia */
+
+.no-webp {
+		background-image: url("/images/jpg/Pariisi.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+}
+
+.webp {
 	background-image: url("/images/Pariisi.webp");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }
+
 
 ol, ul {
 	list-style: none;

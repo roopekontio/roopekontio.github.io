@@ -53,14 +53,13 @@
 									</header> <br>
 								</article>
 								<article>
-									<img class="image esittely" src="images/Jekku.webp" alt="Jääkäripuku" />
+									<img class="image esittely" src="images/jpg/Jekku.jpg" alt="Minä jääkäripuvussa">
 									Videoalan harrastukseni alkoi 9 -vuotiaana Valveen elokuvakoulussa.<br>
 									Olen tehnyt vuosien varrella kymmeniä lyhytelokuvia, mainoksia ja muita videoprojekteja.<br>
 									Valmistuin vuonna 2019 ylioppilaaksi Oulun Suomalaisen Yhteiskoulun lukiosta ja suoritin varusmiespalvelukseni Lapin sotilassoittokunnan mediavarusmiehenä. Seuraavaksi tavoitteeni on päästä opiskelemaan elokuva- ja TV-alaa.
 
 							</article>
 					</div>
-
 
 
 				<!-- Copyright -->
@@ -78,6 +77,15 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/modernizr.js"></script>
+			<script>Modernizr.on('webp', function (result) {
+				if (result) {
+					// supported
+				} else {
+					// not-supported
+				}
+			});
+		</script>
 
 	</body>
 </html>
