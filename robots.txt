@@ -1,6 +1,6 @@
 # Group 1
 User-agent: Googlebot-Image
-Disallow: /images/
+Disallow: /
 
 # Group 2
 User-agent: *
