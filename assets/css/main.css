@@ -2919,6 +2919,13 @@ input, select, textarea {
 			text-align: -webkit-center;
 		}
 
+			@media screen and (max-width: 980px) {
+				.icons.yhteyttä img {
+					height: 3rem;
+					padding: 0 0.75rem 0 0.75rem:
+				}
+			}
+
 /* List */
 
 	ol {
