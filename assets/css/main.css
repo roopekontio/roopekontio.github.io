@@ -2935,7 +2935,7 @@ input, select, textarea {
 			@media screen and (max-width: 980px) {
 				.icons.yhteyttä img {
 					height: 3rem;
-					padding: 0 0.75rem 0 0.75rem:
+					padding: 0 0.75rem 0 0.75rem;
 				}
 			}
 
@@ -3719,7 +3719,7 @@ input, select, textarea {
 		/* Navigointi-napit portfolioon */
 
 		#napit {
-			color: #00000;
+			color: #000000;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			display: -moz-flex;
 			display: -webkit-flex;
