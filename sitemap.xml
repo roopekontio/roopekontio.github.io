@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://roopekontio.fi/</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://roopekontio.fi/otayhteyttä</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://roopekontio.fi/Portfolio</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://roopekontio.fi/työkokemus</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://roopekontio.fi/index</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://roopekontio.fi/mainokset</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://roopekontio.fi/muut</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://roopekontio.fi/lyhytelokuvat</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://roopekontio.fi/LAPSSK</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+</urlset>
+<!--<guid value="912f6759-7ad7-4091-b8fc-6649cd3bce45" />-->
