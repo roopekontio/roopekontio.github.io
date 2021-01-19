@@ -2671,7 +2671,7 @@ input, select, textarea {
 
 		.image.right {
 			float: right;
-			margin: 0 0 2rem 3rem;
+			margin: 0 0 0 3rem;
 			top: 0.75rem;
 		}
 
@@ -3799,8 +3799,6 @@ input, select, textarea {
 				-webkit-flex-shrink: 1;
 				-ms-flex-shrink: 1;
 				flex-shrink: 1;
-				font-family: "Source Sans Pro", Helvetica, sans-serif;
-				font-weight: 900;
 				letter-spacing: 0.05em;
 				list-style: none;
 				padding-left: 1rem;
@@ -3820,6 +3818,7 @@ input, select, textarea {
 						transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 						display: inline;
 						outline: none;
+						color: black;
 					}
 
 						#napit ul.vasen li .icon:before {
@@ -3928,6 +3927,12 @@ input, select, textarea {
 					max-width: 100%;
 					max-height: 250px
 				}
+			}
+
+			#main > .post.instagram {
+				text-align: center;
+				margin: auto;
+				display: block;
 			}
 
 			@media screen and (max-width: 1280px) {
@@ -4726,7 +4731,7 @@ input, select, textarea {
 			right: 0;
 			text-align: right;
 			top: 0;
-			vertical-align: middle;
+			/* vertical-align: middle; */
 			width: 7rem;
 		}
 
